@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1900px;
+}
+
+.btn-primary,
+.btn-secondary {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/**************** header section starts********************/
+.header {
+    padding: 20px 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .row .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.header .row .logo img{
+    width: 100%;
+}
+.header .row .logo h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.header .row .logo h2 span{
+   color: #FF42A5;
+}
+.header .row .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.header .row .nav ul a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header .row .nav .header-social {
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 17px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/**************** header section End ********************/
+
+
+/**************** Banner section starts ********************/
+
+.banner .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .row .content-area{
+    width: 66%;
+    background-image: url(img/Group-14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 100px 100px 200px;
+    margin-left: -200px;
+}
+.banner .row .content-area h3{
+    color: #0B0223;
+    text-align: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner .row .content-area h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner .row .content-area ul {
+    list-style: none;
+}
+.banner .row .content-area ul li{
+    margin-bottom: 10px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner .row .content-area .btn-secondary {
+    background: #4EC5F7;
+    text-transform: uppercase;
+}
+.banner .row .content-area .btn a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner .row .image-area {
+    text-align: right;
+}
+.banner .row .image-area img{
+    width: 100%;
+
+}
+
+
+/**************** Banner section End ********************/
+
+
+
+/**************** We are Gamer section Start ********************/
+.gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gamer .row {
+    display: flex;
+    align-items: center;
+}
+.gamer .row .image-area {
+    width: 100%;
+}
+.gamer .row .image-area img{
+    width: 100%;
+}
+.gamer .row .content-area {
+    width: 100%;
+    text-align: right;
+}
+.gamer .row .content-area h3{
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer .row .content-area p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.gamer .row .content-area h6{
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.gamer .row .content-area h5{
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/**************** We are Gamer section End ********************/
+
+
+
+/**************** Online Games section Starts ********************/
+
+.online-games {
+    padding: 50px 0;
+}
+.online-games h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.online-games h3 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games p{
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+
+
+.online-games .card {
+    display: flex;
+    gap: 20px;
+}
+.online-games .card img{
+    width: 100%;
+}
+.online-games .card p{
+    color: #534C64;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/**************** Online Games section End ********************/
+
+/**************** Play Games section Start ********************/
+.play-games {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.play-games .row {
+    display: flex;
+    align-items: center;
+}
+.play-games .row .image-area {
+    width: 100%;
+    position: relative;
+}
+.play-games .row .image-area img{
+    width: 100%;
+}
+.play-games .row .image-area .tiger-girl{
+    width: 40%;
+    position: absolute;
+    bottom: -70px;
+    right: -70px;
+}
+
+
+.play-games .row .content-area {
+    width: 100%;
+    padding-left: 150px;
+}
+.play-games .row .content-area h3 span{
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-games .row .content-area h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.play-games .row .content-area p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+
+/**************** Play Games section End ********************/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .header .row,
+    .banner .row,
+    .gamer .row,
+    .online-games .card,
+    .play-games .row {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .banner .row .content-area {
+        order: 2;
+        padding: 20px 20px 20px 40px!important;
+        width: 86%!important;
+        margin-left: -16px!important;
+    }
+    .banner .row .content-area h3{
+        font-size: 40px;
+    }
+    .banner .row .content-area h2{
+        font-size: 60px;
+    }
+    .banner .row .image-area{
+        order: 1;
+        text-align: center;
+    }
+    .header .row .nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .gamer .row .content-area {
+        width: 100%;
+        text-align: center;
+    }
+    .online-games .card img{
+        width: 80%;
+    }
+    .online-games .card {
+        text-align: center;
+    }
+    .online-games .card p{
+        text-align: center;
+    }
+    .play-games .row .image-area img{
+        width: 70%;
+    }
+    .play-games .row .image-area .tiger-girl{
+        width: 40%;
+        position: absolute;
+        bottom: -20px;
+        right: 5px;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .header .row,
+    .gamer .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner .row .content-area {
+        width: 100%;
+        padding: 28px ;
+        margin-left: -28px;
+    }
+    .banner .row .image-area img {
+        width: 80%;
+    }
+    .gamer .row .content-area {
+        text-align: center;
+    }
+
+}

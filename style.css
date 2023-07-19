@@ -270,8 +270,6 @@
     bottom: -70px;
     right: -70px;
 }
-
-
 .play-games .row .content-area {
     width: 100%;
     padding-left: 150px;
@@ -300,6 +298,60 @@
 /**************** Play Games section End ********************/
 
 
+/**************** Game List section Start ********************/
+.game-list{
+    box-sizing: border-box;
+}
+.game-list img{
+    width: 20%;
+}
+.game-list p{
+    font-size: 13px;
+}
+
+.game-list .list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px 0;
+}
+.game-list .list .g-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.game-list .list .g-list{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+.game-list .list .g-list:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 30px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+/**************** Game List section End ********************/
+.footer {
+    background: #0B0223;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer .menu ul {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.footer .menu {
+    margin: 20px 0;
+}
+.footer .menu ul li {
+    cursor: pointer;
+    list-style: none;
+    color: #fff;
+}
+
 
 
 
@@ -315,7 +367,8 @@
     .banner .row,
     .gamer .row,
     .online-games .card,
-    .play-games .row {
+    .play-games .row,
+    .game-list .list {
         flex-direction: column;
         gap: 40px;
     }
@@ -361,6 +414,13 @@
         bottom: -20px;
         right: 5px;
     }
+    .play-games .row .content-area {
+        padding-left: 10px!important;
+        text-align: center;
+    }
+    .game-list .list{
+        justify-content: center;
+    }
 
 }
 @media screen and (max-width: 900px) {
@@ -383,6 +443,14 @@
     }
     .gamer .row .content-area {
         text-align: center;
+    }
+    .play-games .row .content-area {
+        width: 100%;
+        padding-left: 93px;
+    }
+    .play-games .row .content-area h3,
+    .play-games .row .content-area h3 span {
+        font-size: 28px;
     }
 
 }

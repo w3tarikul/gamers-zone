@@ -338,6 +338,19 @@
     padding: 50px 0;
     text-align: center;
 }
+.footer .logo-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer .logo-area h2{
+    align-items: center;
+    color: #fff;
+}
+.footer .logo-area h2 span{
+    color: #ff42a5;
+}
 .footer .menu ul {
     display: flex;
     gap: 25px;
@@ -351,7 +364,35 @@
     list-style: none;
     color: #fff;
 }
+.footer .icon {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    gap: 20px;
+}
+.footer .icon a{
+    color: #fff;
+    gap: 20px;
+    text-decoration: none;
+}
 
+.footer .copyright .copy-menu ul{
+    color: #fff;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.footer .copyright .copy-menu ul LI{
+    color: #d7d7d7;
+    list-style: none;
+    font-size: 10px;
+}
+.footer .copyright .copy {
+    color: #d6d6d6;
+    font-size: 10px;
+}
 
 
 
@@ -368,7 +409,8 @@
     .gamer .row,
     .online-games .card,
     .play-games .row,
-    .game-list .list {
+    .game-list .list,
+    .menu ul{
         flex-direction: column;
         gap: 40px;
     }

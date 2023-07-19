@@ -333,6 +333,7 @@
     cursor: pointer;
 }
 /**************** Game List section End ********************/
+/**************** footer section start ********************/
 .footer {
     background: #0B0223;
     padding: 50px 0;
@@ -394,11 +395,11 @@
     font-size: 10px;
 }
 
+/**************** footer section End ********************/
 
 
 
-
-
+/**************** Mobile device Responsive ********************/
 @media screen and (max-width: 576px) {
     .container{
         width: 98%;
@@ -465,6 +466,9 @@
     }
 
 }
+
+
+/**************** Tablet device Responsive ********************/
 @media screen and (max-width: 900px) {
     .container{
         width: 95%;

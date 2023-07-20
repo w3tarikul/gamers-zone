@@ -266,6 +266,11 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.image-overlay p {
+    color: #ff42a5!important;
 }
 
 .online-games .card .card-1 .image-overlay:hover .overlay-content {
@@ -451,7 +456,7 @@
     .online-games .card,
     .play-games .row,
     .game-list .list,
-    .menu ul{
+    .menu ul {
         flex-direction: column;
         gap: 40px;
     }
@@ -504,6 +509,7 @@
     .game-list .list{
         justify-content: center;
     }
+    
 
 }
 

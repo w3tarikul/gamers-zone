@@ -246,6 +246,46 @@
     line-height: 20px;
 }
 
+/* Add styles for the overlay and play button */
+.online-games .card .card-1 .image-overlay {
+    position: relative;
+}
+
+.online-games .card .card-1 .image-overlay .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #ff42a5;
+    border-radius: 10px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.online-games .card .card-1 .image-overlay:hover .overlay-content {
+    opacity: 1;
+}
+
+.online-games .card .card-1 .image-overlay .overlay-content i {
+    font-size: 40px;
+    color: #fff;
+}
+
+.online-games .card .card-1 .image-overlay .overlay-content p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
 /**************** Online Games section End ********************/
 
 /**************** Play Games section Start ********************/
@@ -469,7 +509,7 @@
 
 
 /**************** Tablet device Responsive ********************/
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 577px) and (max-width: 900px) {
     .container{
         width: 95%;
         margin: 0 auto;
